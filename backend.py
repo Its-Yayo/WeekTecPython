@@ -1,6 +1,9 @@
+#!/usr/bin/env python3
+
 from flask import Flask, request, jsonify
 from flask_cors import CORS
 from werkzeug.utils import secure_filename
+
 import joblib
 import os
 import csv
